@@ -1,0 +1,95 @@
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    color: #336699;
+    text-align: right;
+    margin-right: 50px;
+    font-size: 100px;
+    float: right;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    color: #336699;
+    text-align: left;
+    font-size: 20px;
+    float: left;
+    width: 100%;
+}
+
+hr#line {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    width: 100%;
+    clear: both;
+    border: none;
+    border-top: 10px solid #336699;
+    border-bottom: 10px solid #336699;
+ }
+
+ form {
+    font-family: 'Libre Baskerville', serif;
+    color: #336699;
+    background-color: #66CCFF;
+}
+
+form#other {
+  background-color: white;
+}
+
+label {
+  font-family: 'Libre Baskerville', serif;
+  color: #336699;
+}
+
+
+button, input[type=radio], input[type=button], input[type=text], input[type=submit], input[type=number] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: #336699;
+    color: white;
+    margin-left: 30px;
+
+  }
+
+ button:hover, input[type=submit]:hover, input[type=button]:hover {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #336699;
+    border-radius: 4px;
+    background-color: white;
+    color: #66CCFF;
+    margin-left: 30px;
+
+
+  }
+
+  input[type=label] {
+    margin-left: 20px;
+  }
+
+  table {
+    font-family: 'Libre Baskerville', serif;
+    color: #336699;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th, th#other {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #66CCFF;
+}
+
+
+
